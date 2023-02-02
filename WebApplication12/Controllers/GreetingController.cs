@@ -15,8 +15,9 @@ namespace WebApplication12.Controllers
         /// </summary>
         /// <returns> Hello World string </returns>
         /// <example>
-        /// 
+        ///  curl -d "" "http://localhost:59124/api/Greeting  -> Hello World!
         /// </example>
+        /// 
         [HttpPost]
 
         [Route("api/Greeting")]
